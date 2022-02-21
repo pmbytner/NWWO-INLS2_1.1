@@ -1,3 +1,14 @@
 ﻿body
 {
+    color: hsl(280,90%,30%);
+    padding: 1em;
+}
+h1 {
+    color: hsl(280,75%,20%);
+}
+h1:first-child {
+    margin-top: 0;
+}
+h1:not(:first-child) {
+    margin-top: 2em;
 }
